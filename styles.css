@@ -1,0 +1,36 @@
+.chat-container {
+    width: 80%;
+    margin: auto;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    clear: both;
+    display: flex;  
+}
+
+.left-message {
+    background-color: #18fa1875;
+    float: left;
+}
+
+.right-message {
+    background-color: #20a3df7e;
+    float: right;
+}
+
+.message-content {
+    text-align: center;
+    flex-grow: 1;  
+}
+
+.user-info {
+    font-size: 12px;
+    margin-top: auto;  
+}
+
+.avatar {
+    margin-right: 10px;
+}
